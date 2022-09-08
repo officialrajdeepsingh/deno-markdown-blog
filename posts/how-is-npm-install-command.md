@@ -1,5 +1,5 @@
 ---
-author : ["Rajdeep Singh"," Rajvinder singh"]
+author : "Rajdeep Singh , Rajvinder singh"
 publish_date : "2022-03-20T13:09:24Z"
 description : "Npm install command help to install package from npmjs.org"
 og:image : "assets/images/npm-init-command-1.png"

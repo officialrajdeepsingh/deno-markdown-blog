@@ -7,7 +7,6 @@ tags : ["Next.js", "Next", "Next.js Framework", "Next.js Tutorial", "React.js", 
 title : "How To Add CSS In Next js?"
 allow_iframes: true
 cover_html: <img src="assets/images/next.js-add-css-code.jpg" alt="How To Add CSS In Next js" />
-
 ---
 
 In this Next Series, we Learn How to add CSS's own Project with Easy Steps.

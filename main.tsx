@@ -1,4 +1,5 @@
 /** @jsx h */
+
 import blog, { h } from "blog";
 import { Section } from './components/Section.jsx';
 
@@ -16,13 +17,13 @@ blog({
     { title: "Linkedin", url: "https://www.linkedin.com/in/officalrajdeepsingh/" },
   ],
   lang: "en",
-  favicon: "favicon.ico",
+  favicon: "https://deno-markdown-blog.deno.dev/favicon.ico",
   section: <Section/>,
   theme:"auto",
-  cover:"assets/logos/backgroundbanner.png",
+  cover:"https://deno-markdown-blog.deno.dev/assets/logos/backgroundbanner.png",
   ogImage: {
-    url: "http://localhost:8000/assets/logos/Frame.png",
-    twitterCard:  "summary_large_image" 
+    url: "https://deno-markdown-blog.deno.dev/assets/logos/Frame.png",
+    twitterCard:"summary_large_image" 
   },
   style:".markdown-body ul, .markdown-body ol { list-style: disc !important;}"
 });

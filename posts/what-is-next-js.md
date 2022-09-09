@@ -141,8 +141,6 @@ https://www.geeksforgeeks.org/next-js-introduction/
 
 https://www.freecodecamp.org/news/an-introduction-to-next-js-for-everyone-507d2d90ab54/
 
-
-
 ---
 
 # Read My Other Blog Medium:

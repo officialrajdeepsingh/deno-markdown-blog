@@ -2,12 +2,14 @@
 
 import blog, { h } from "blog";
 import { Section } from './components/Section.jsx';
+import "https://deno.land/x/dotenv@v3.2.0/load.ts";
+
 
 blog({
   author: "Rajdeep singh",
   title: "Hello, my name is Rajdeep Singh",
   description: "Nice to meet you",
-  avatar:"assets/logos/profile.jpg",
+  avatar:`${Deno.env.get("URL")}assets/logos/profile.jpg`,
   avatarClass: "rounded-full",
   coverTextColor:"white",
   links: [
@@ -17,12 +19,12 @@ blog({
     { title: "Linkedin", url: "https://www.linkedin.com/in/officalrajdeepsingh/" },
   ],
   lang: "en",
-  favicon: "https://deno-markdown-blog.deno.dev/favicon.ico",
+  favicon: `${Deno.env.get("URL")}favicon.ico`,
   section: <Section/>,
   theme:"auto",
-  cover:"https://deno-markdown-blog.deno.dev/assets/logos/backgroundbanner.png",
+  cover:`${Deno.env.get("URL")}assets/logos/backgroundbanner.png`,
   ogImage: {
-    url: "https://deno-markdown-blog.deno.dev/assets/logos/Frame.png",
+    url: `${Deno.env.get("URL")}assets/logos/Frame.png`,
     twitterCard:"summary_large_image" 
   },
   style:".markdown-body ul, .markdown-body ol { list-style: disc !important;}"

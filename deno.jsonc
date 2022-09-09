@@ -1,7 +1,7 @@
 {
   "tasks": {
     "dev": "deno run --allow-net --allow-read --allow-env --watch --no-clear-screen main.tsx --dev",
-    "serve": "deno run --allow-net --allow-read --allow-env --no-check main.tsx"
+    "serve": "deno run --allow-net --allow-read --allow-env --no-check  main.tsx"
   },
   "importMap": "./import_map.json"
 }
